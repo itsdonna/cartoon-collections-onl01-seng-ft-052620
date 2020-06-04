@@ -11,7 +11,8 @@ def summon_captain_planet(veggies)
       veggies.map {|veggies| veggies.capitalize + "!"}
 end
 
-def long_planeteer_calls 
+def long_planeteer_calls(calls)
+  calls.any? 
   
   # describe "#long_planeteer_calls" do
   #   it "returns true if any calls are longer than 4 characters" do
