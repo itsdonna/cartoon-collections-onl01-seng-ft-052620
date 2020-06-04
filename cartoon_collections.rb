@@ -20,7 +20,7 @@ def long_planeteer_calls(calls)
   #     expect(long_planeteer_calls(calls_long)).to eq(true)
 end
 
-def find_the_cheese
+def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   
 end
