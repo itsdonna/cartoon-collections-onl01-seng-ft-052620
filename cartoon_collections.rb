@@ -12,7 +12,7 @@ def summon_captain_planet(veggies)
 end
 
 def long_planeteer_calls(calls)
-  calls.any? {|call| call.size<4 }
+  calls.any? {|call| call.size > 4 }
   
   # describe "#long_planeteer_calls" do
   #   it "returns true if any calls are longer than 4 characters" do
