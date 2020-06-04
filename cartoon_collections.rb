@@ -4,10 +4,14 @@ def roll_call_dwarves(dwarves) # code an argument here
   dwarves.each_with_index do | name, index |
     puts "#{index + 1} #{name}"
   end
+end
 
 
 def summon_captain_planet(veggies)
   veggies = ["carrot!", "cucumber!", "pepper!"]
+  veggies.map do |call|
+    call.capitalize + "1"
+  end
 end
 
 
