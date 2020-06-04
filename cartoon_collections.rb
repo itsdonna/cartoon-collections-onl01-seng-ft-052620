@@ -12,6 +12,11 @@ def summon_captain_planet(veggies)
 end
 
 def long_planeteer_calls 
+  
+  # describe "#long_planeteer_calls" do
+  #   it "returns true if any calls are longer than 4 characters" do
+  #     calls_long = ["axe", "earth", "wind", "fire"]
+  #     expect(long_planeteer_calls(calls_long)).to eq(true)
 end
 
 def find_the_cheese# code an argument here
