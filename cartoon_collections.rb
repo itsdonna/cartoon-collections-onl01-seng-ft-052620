@@ -8,7 +8,7 @@ end
 
 
 def summon_captain_planet(veggies)
-      veggies.map {|veggies| veggies.capitalize()}
+      veggies.map {|veggies| veggies.capitalize + "!"}
   end
 end
 
