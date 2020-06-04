@@ -9,6 +9,10 @@ def roll_call_dwarves(dwarves) # code an argument here
 def summon_captain_planet(veggies)
   veggies = ["carrot!", "cucumber!", "pepper!"]
 end
+
+def summon_captain_planet(veggies)
+ veggies.collect { |call| call.capitalize + “!”} 
+end
 # # describe '#summon_captain_planet' do
 #     it 'returns an array with the same number of elements that it was given' do
 #       veggies = %w[carrot cucumber pepper]
