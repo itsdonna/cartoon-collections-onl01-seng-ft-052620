@@ -7,8 +7,10 @@ def roll_call_dwarves(dwarves) # code an argument here
 end
 
 def summon_captain_planet(planeteer_calls)
-  veggies = ["carrot!", "cucumber!", "pepper!"]
-    veggies.map!{|element| element.capitalize()}
+  planeteer_calls.collect do |call|
+   call.capitalize + “!”
+  end 
+end
 # # describe '#summon_captain_planet' do
 #     it 'returns an array with the same number of elements that it was given' do
 #       veggies = %w[carrot cucumber pepper]
