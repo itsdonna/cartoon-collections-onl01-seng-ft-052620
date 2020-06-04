@@ -9,7 +9,7 @@ end
 
 def summon_captain_planet(veggies)
   veggies = ["carrot!", "cucumber!", "pepper!"]
-    veggies.map!{|element| element.capitalize()}
+    veggies.map {|veggies| veggies.capitalize()}
   end
 end
 
